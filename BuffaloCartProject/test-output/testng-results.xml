@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44807" started-at="2021-06-14T03:54:18Z" finished-at="2021-06-14T03:55:03Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="44807" started-at="2021-06-14T03:54:18Z" finished-at="2021-06-14T03:55:03Z">
+      <class name="com.buffalocart.testscript.LoginTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.buffalocart.testscript.LoginTest@d8355a8]" name="setUp" is-config="true" duration-ms="14965" started-at="2021-06-14T03:54:19Z" finished-at="2021-06-14T03:54:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://buffalocart.com/demo/billing/public/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyValidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.buffalocart.testscript.LoginTest@d8355a8]" name="verifyValidLogin" duration-ms="5753" started-at="2021-06-14T03:54:34Z" data-provider="credentials" finished-at="2021-06-14T03:54:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.buffalocart.testscript.LoginTest@d8355a8]" name="tearDown" is-config="true" duration-ms="2291" started-at="2021-06-14T03:54:40Z" finished-at="2021-06-14T03:54:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidLogin status=SUCCESS method=LoginTest.verifyValidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.buffalocart.testscript.LoginTest@d8355a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.buffalocart.testscript.LoginTest@d8355a8]" name="setUp" is-config="true" duration-ms="13322" started-at="2021-06-14T03:54:42Z" finished-at="2021-06-14T03:54:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://buffalocart.com/demo/billing/public/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyValidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.buffalocart.testscript.LoginTest@d8355a8]" name="verifyValidLogin" duration-ms="4954" started-at="2021-06-14T03:54:55Z" data-provider="credentials" finished-at="2021-06-14T03:55:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.buffalocart.testscript.LoginTest@d8355a8]" name="tearDown" is-config="true" duration-ms="2472" started-at="2021-06-14T03:55:00Z" finished-at="2021-06-14T03:55:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidLogin status=SUCCESS method=LoginTest.verifyValidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.buffalocart.testscript.LoginTest@d8355a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.buffalocart.testscript.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
